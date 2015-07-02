@@ -1,0 +1,4 @@
+	public void mouseMoved(MouseEvent e) {
+		paddle.setLocation(Math.min(e.getX(), WIDTH - PADDLE_WIDTH), 
+								paddle.getY());
+	}
